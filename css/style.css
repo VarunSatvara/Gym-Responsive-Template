@@ -1,0 +1,38 @@
+body,
+html {
+    font-family: "work sans", Arial, sans-serif;
+    background-color: #000;
+    color: rgba(255, 255, 255, .4);
+    background-size: cover;
+}
+
+.nav-head {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: rgba(255, 255, 255, .9) !important;
+}
+
+.ticket-change {
+    font-size: 15px;
+    color: #3b1d82 !important;
+}
+
+.font-change {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .9) !important;
+}
+
+.ft-change {
+    font-size: 15px;
+    color: #ff0000 !important;
+}
+
+.gym-bg {
+    background-image: url(../images/bg_1.jpg);
+    position: absolute;
+    background-attachment: fixed;
+}
