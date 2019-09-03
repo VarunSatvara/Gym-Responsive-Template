@@ -1,29 +1,35 @@
 body,
 html {
     font-family: "work sans", Arial, sans-serif;
-    background-color: #000;
-    color: rgba(255, 255, 255, .4);
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
     background-size: cover;
+    background-color: #000000;
 }
 
 .nav-head {
     width: 100%;
-    opacity: 0.8;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: #000000;
 }
 
 .navbar-brand {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9) !important;
-}
-
-.ticket-change {
-    font-size: 15px;
-    color: #3b1d82 !important;
+    color: rgba(255, 255, 255, .4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-image: url(../images/logo-bg.jpg);
+    background-size: cover;
 }
 
 .font-change {
     font-size: 15px;
-    color: rgba(255, 255, 255, .9) !important;
+    color: rgba(255, 255, 255, .4);
 }
 
 .ft-change {
@@ -31,8 +37,120 @@ html {
     color: #ff0000 !important;
 }
 
-.gym-bg {
-    background-image: url(../images/bg_1.jpg);
+.hero-wrap {
+    height: 657px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.hero-wrap .overlay {
+    height: 100%;
     position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    content: '';
+    background: #000;
+    opacity: 1;
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../images/bg_2.jpg);
+    background-position: 50% 0px;
+}
+
+.hero-wrap:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    background: #000;
+    opacity: 1;
+    z-index: -1;
+}
+
+.slider-text {
+    height: 657px;
+}
+
+.hero-wrap .slider-text h3.v {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-orientation: sideways;
+    text-orientation: sideways;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    height: 70%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 14px;
+    z-index: 9;
+}
+
+.hero-wrap .slider-text h3.v a {
+    color: #fff;
+    position: relative;
+}
+
+.hero-wrap .slider-text h3.v a .icon {
+    position: absolute;
+    left: -5px;
+    top: -70px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    animation: pulse 2s infinite;
+}
+
+.hero-wrap .slider-text h3.v a .icon span {
+    color: red;
+}
+
+.hero-wrap .slider-text h3.v a span {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, .3);
+}
+
+[class^=icon-],
+[class*=" icon-"] {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+.hero-wrap .slider-text h3.v a span {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, .3);
+}
+
+.hero-wrap .slider-text h1 {
+    font-size: 300px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: .8;
+    overflow: hidden;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
+    background-position: 50% -48.5px;
+    background-image: url(../images/bg_1.jpg);
 }
