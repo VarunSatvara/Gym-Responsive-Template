@@ -407,33 +407,24 @@ html {
 }
 
 .trainer1-img {
-    height: 500px;
-    width: 290px;
     background-image: url(../images/trainer-1.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .trainer2-img {
-    height: 500px;
-    width: 290px;
     background-image: url(../images/trainer-2.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .trainer3-img {
-    height: 500px;
-    width: 290px;
     background-image: url(../images/trainer-3.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .trainer4-img {
+    background-image: url(../images/trainer-4.jpg);
+}
+
+.trainer-all {
     height: 500px;
     width: 290px;
-    background-image: url(../images/trainer-4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -462,4 +453,65 @@ html {
     width: 50px;
     background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
     font-size: 24px;
+}
+
+.push-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../images/bg_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.testimotional-p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .7);
+    line-height: 27px;
+    padding: 0px 150px;
+}
+
+.name-scott {
+    font-size: 18px;
+    margin: 0;
+}
+
+.person-radius {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(../images/person_1.jpg);
+    background-position: top;
+    background-size: contain;
+}
+
+.blog-body {
+    background-color: #000;
+}
+
+.workout-head {
+    font-size: 17px;
+}
+
+.work-p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .4);
+    line-height: 27px;
+}
+
+.day {
+    background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+    font-size: 44px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.time {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .4);
+}
+
+.yr {
+    letter-spacing: 2px;
 }
