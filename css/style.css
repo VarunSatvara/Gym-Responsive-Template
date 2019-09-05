@@ -498,6 +498,12 @@ html {
     line-height: 27px;
 }
 
+.power-p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .7);
+    line-height: 27px;
+}
+
 .day {
     background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
     font-size: 44px;
@@ -538,4 +544,119 @@ html {
     border-style: none;
     background: 0 !important;
     border-bottom: 1px solid rgba(255, 255, 255, .2)!important;
+}
+
+.gym-pic {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.gym-pic-one {
+    background-image: url(../images/gallery-1.jpg);
+}
+
+.gym-pic-two {
+    background-image: url(../images/gallery-2.jpg);
+}
+
+.gym-pic-three {
+    background-image: url(../images/gallery-3.jpg);
+}
+
+.gym-pic-four {
+    background-image: url(../images/gallery-4.jpg);
+}
+
+.gym-pic .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    z-index: 0;
+    opacity: 0;
+    position: relative;
+    transition: all .6s ease;
+    opacity: 0;
+}
+
+.gym-pic .icon:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    content: '';
+    background: red;
+    z-index: -1;
+    transform: rotate(135deg);
+}
+
+.gym-pic:hover .icon,
+.gym-pic:focus .icon {
+    opacity: 1;
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.name-df-head {
+    font-size: 16px;
+}
+
+.ft-p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .4);
+    line-height: 27px;
+}
+
+.icon-awesome {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #0D0D0D;
+}
+
+.iconic {
+    font-size: 24px;
+}
+
+.bg-small {
+    height: 100px;
+    width: 100px;
+    background-image: url(../images/image_1.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.bg-small-one {
+    height: 100px;
+    width: 100px;
+    background-image: url(../images/image_2.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.meta-list {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .4);
+}
+
+.cross-text {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .7);
+    line-height: 50px;
+}
+
+.same-text-cn {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.ftco-p {
+    color: rgba(255, 255, 255, .4);
 }
