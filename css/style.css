@@ -12,6 +12,11 @@ html {
     width: 100%;
     z-index: 1;
 }
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
 
 .navbar {
     background-color: #000000;
@@ -660,3 +665,60 @@ html {
 .ftco-p {
     color: rgba(255, 255, 255, .4);
 }
+
+.special-card {
+    border-style: none;
+}
+
+
+/* Media Querey */
+
+@media screen and (min-width: 1025px) and (max-width: 2560px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .person-one {
+        height: 750px;
+        background-position: center;
+        background-size: cover;
+    }
+    .aerobic-paragraph {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .aerobic-h3 {
+        font-size: 17px;
+    }
+    .circle-icon {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+    }
+    /* .coach-head {
+        padding-left: 63px !important;
+    } */
+    .person-h3 {
+        font-size: 23px;
+    }
+    .person-p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .icon-list-color {
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+    }
+    .trainer-all {
+        height: 500px;
+        width: 240px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {}
